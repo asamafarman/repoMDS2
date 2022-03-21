@@ -9,6 +9,7 @@ import com.vaadin.flow.component.template.Id;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.textfield.TextField;
+import com.vaadin.flow.component.textfield.PasswordField;
 
 /**
  * A Designer generated component for the vista-principal template.
@@ -44,6 +45,8 @@ public class VistaPrincipal extends PolymerTemplate<VistaPrincipal.VistaPrincipa
 	private TextField vaadinTextField1;
 	@Id("vaadinHorizontalLayout1")
 	private HorizontalLayout vaadinHorizontalLayout1;
+	@Id("vaadinPasswordField")
+	private PasswordField vaadinPasswordField;
 	/**
      * Creates a new VistaPrincipal.
      */

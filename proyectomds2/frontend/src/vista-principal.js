@@ -1,8 +1,9 @@
 import {html, PolymerElement} from '@polymer/polymer/polymer-element.js';
 import '@vaadin/vaadin-ordered-layout/src/vaadin-vertical-layout.js';
-import '@vaadin/vaadin-text-field/src/vaadin-text-field.js';
 import '@vaadin/vaadin-ordered-layout/src/vaadin-horizontal-layout.js';
 import '@vaadin/vaadin-button/src/vaadin-button.js';
+import '@vaadin/vaadin-text-field/src/vaadin-text-field.js';
+import '@vaadin/vaadin-text-field/src/vaadin-password-field.js';
 
 class VistaPrincipal extends PolymerElement {
 
@@ -15,29 +16,29 @@ class VistaPrincipal extends PolymerElement {
                 }
             </style>
 <vaadin-vertical-layout style="width: 100%; height: 100%;" id="vaadinVerticalLayout">
- <vaadin-text-field id="vaadinTextField" style="width: 100%; height: 100%;" placeholder="Correo electronico"></vaadin-text-field>
- <vaadin-text-field id="vaadinTextField1" style="width: 100%; height: 100%;" placeholder="Contraseña"></vaadin-text-field>
- <vaadin-horizontal-layout theme="spacing" id="vaadinHorizontalLayout" style="width: 100%; height: 100%;">
-  <vaadin-button id="vaadinButton" style="width: 100%; height: 100%;">
-   Iniciar Sesion
+ <vaadin-text-field id="textField_correo_electronico" style="width: 100%; height: 100%;" placeholder="Correo electronico"></vaadin-text-field>
+ <vaadin-password-field id="textField_contrasena" style="width: 100%; height: 100%;" placeholder="Contraseña"></vaadin-password-field>
+ <vaadin-horizontal-layout theme="spacing" id="vaadinHorizontalLayout" style="width: 100%; height: 100%; align-items: center; justify-content: space-evenly;">
+  <vaadin-button id="button_iniciar_sesion" style="width: 50%; height: 50%; flex-grow: 0; flex-shrink: 0;">
+    Iniciar Sesion 
   </vaadin-button>
-  <vaadin-button id="vaadinButton1" style="width: 100%; height: 100%;">
-   Olvidé Contraseña
-  </vaadin-button>
- </vaadin-horizontal-layout>
- <vaadin-horizontal-layout theme="spacing" id="vaadinHorizontalLayout1" style="width: 100%; height: 100%;">
-  <vaadin-button id="vaadinButton2" style="width: 100%; height: 100%;">
-   Facebook
-  </vaadin-button>
-  <vaadin-button id="vaadinButton3" style="width: 100%; height: 100%;">
-   Google 
-  </vaadin-button>
-  <vaadin-button id="vaadinButton4" style="height: 100%; width: 100%;">
-   Apple Id
+  <vaadin-button id="button_olvide_contrasena" style="width: 50%; height: 50%;">
+    Olvidé Contraseña 
   </vaadin-button>
  </vaadin-horizontal-layout>
- <vaadin-button id="vaadinButton5" style="width: 100%; height: 100%;">
-  Registrarse
+ <vaadin-horizontal-layout theme="spacing" id="vaadinHorizontalLayout1" style="width: 100%; height: 100%; align-items: center;">
+  <vaadin-button id="button_facebook" style="width: 50%; height: 50%;">
+    Facebook 
+  </vaadin-button>
+  <vaadin-button id="button_google" style="width: 50%; height: 50%;">
+    Google 
+  </vaadin-button>
+  <vaadin-button id="button_apple_id" style="height: 50%; width: 50%;">
+    Apple Id 
+  </vaadin-button>
+ </vaadin-horizontal-layout>
+ <vaadin-button id="button_registrarse" style="width: 50%; height: 50%; align-self: center;">
+   Registrarse 
  </vaadin-button>
 </vaadin-vertical-layout>
 `;
