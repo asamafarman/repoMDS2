@@ -1,7 +1,7 @@
 package interfaz;
 
 public class Perfil_artista {
-	private event _seguir;
+//	private event _seguir;
 	public Canciones_artista _artista_busqueda;
 	public Artista_que_sigues _artista_que_sigues;
 	public Artistas_favoritos _artistas_favoritos;

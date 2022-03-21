@@ -1,7 +1,7 @@
 package interfaz;
 
 public class Reproductor_cancion {
-	private Label _tituloCancionL;
+//	private Label _tituloCancionL;
 	private Object _attribute;
 	public Cancion_favorita _cancion_favorita;
 	public Ultima_cancion_reproducida _ultima_cancion_reproducida;

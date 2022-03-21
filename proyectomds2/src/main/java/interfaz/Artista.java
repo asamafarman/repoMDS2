@@ -1,7 +1,7 @@
 package interfaz;
 
 public class Artista extends AtributosComunes2 {
-	private event _anadir_album;
+//	private event _anadir_album;
 	public Artistas _artistas;
 	public Albums _albums;
 

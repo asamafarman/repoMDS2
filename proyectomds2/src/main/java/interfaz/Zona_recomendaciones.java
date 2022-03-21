@@ -1,7 +1,7 @@
 package interfaz;
 
 public class Zona_recomendaciones {
-	public Usuario_registrado _usuario_registrado;
+//	public Usuario_registrado _usuario_registrado;
 	public Artistas_favoritos _artistas_favoritos;
 	public Recomendacion_canciones _recomendacion_canciones;
 	public Recomendacion_album _recomendacion_album;

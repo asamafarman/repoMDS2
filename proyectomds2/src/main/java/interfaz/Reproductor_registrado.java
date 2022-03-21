@@ -1,10 +1,10 @@
 package interfaz;
 
 public class Reproductor_registrado extends Reproductor {
-	private event _compartir_cancion;
-	private event _avanzar_10s;
-	private event _retroceder_10s;
-	private event _favoritos;
+//	private event _compartir_cancion;
+//	private event _avanzar_10s;
+//	private event _retroceder_10s;
+//	private event _favoritos;
 	public Zona_ultima_lista_reproduccion _zona_ultima_lista_reproduccion;
 	public Reproductor_lista _reproductor_lista;
 	public Reproductor_cancion _reproductor_cancion;

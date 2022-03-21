@@ -1,8 +1,8 @@
 package interfaz;
 
 public class Anadir_album {
-	private event _subir_cancion;
-	private event _subir_caratula;
+//	private event _subir_cancion;
+//	private event _subir_caratula;
 	public Artistas _artistas;
 
 	public void Subir_cancion() {

@@ -1,5 +1,5 @@
 package interfaz;
 
 public class Vista_registrado {
-	public Cantante _cantante;
+//	public Cantante _cantante;
 }

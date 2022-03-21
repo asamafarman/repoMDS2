@@ -1,7 +1,7 @@
 package interfaz;
 
 public class Album extends CosasComunesAdmin {
-	private event _anadir_cancion;
+//	private event _anadir_cancion;
 	public Albums _albums;
 	public Canciones _canciones;
 
