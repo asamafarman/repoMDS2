@@ -21,32 +21,34 @@ import com.vaadin.flow.component.textfield.PasswordField;
 @JsModule("./src/vista-principal.js")
 public class VistaPrincipal extends PolymerTemplate<VistaPrincipal.VistaPrincipalModel> {
 
-    @Id("vaadinVerticalLayout1")
-	private Element vaadinVerticalLayout1;
-	@Id("vaadinButton")
-	private Button vaadinButton;
-	@Id("vaadinButton1")
-	private Button vaadinButton1;
-	@Id("vaadinHorizontalLayout")
-	private HorizontalLayout vaadinHorizontalLayout;
-	@Id("vaadinButton2")
-	private Button vaadinButton2;
-	@Id("vaadinButton3")
-	private Button vaadinButton3;
-	@Id("vaadinButton4")
-	private Button vaadinButton4;
-	@Id("vaadinButton5")
-	private Button vaadinButton5;
-	@Id("vaadinVerticalLayout")
-	private Element vaadinVerticalLayout;
-	@Id("vaadinTextField")
-	private TextField vaadinTextField;
-	@Id("vaadinTextField1")
-	private TextField vaadinTextField1;
-	@Id("vaadinHorizontalLayout1")
-	private HorizontalLayout vaadinHorizontalLayout1;
-	@Id("vaadinPasswordField")
-	private PasswordField vaadinPasswordField;
+ 
+	@Id("verticalLayout_principal")
+	private Element verticalLayout_principal;
+	@Id("horizontal_correoYcontrasena")
+	private HorizontalLayout horizontal_correoYcontrasena;
+	@Id("textField_correo_electronico")
+	private TextField textField_correo_electronico;
+	@Id("textField_contrasena")
+	private PasswordField textField_contrasena;
+	@Id("horizontal_buttons1")
+	private HorizontalLayout horizontal_buttons1;
+	@Id("button_iniciar_sesion")
+	private Button button_iniciar_sesion;
+	@Id("button_olvide_contrasena")
+	private Button button_olvide_contrasena;
+	@Id("horizontal_buttons2")
+	private HorizontalLayout horizontal_buttons2;
+	@Id("button_google")
+	private Button button_google;
+	@Id("button_facebook")
+	private Button button_facebook;
+	@Id("button_apple_id")
+	private Button button_apple_id;
+	@Id("horizontal_buttons3")
+	private HorizontalLayout horizontal_buttons3;
+	@Id("button_registrarse")
+	private Button button_registrarse;
+
 	/**
      * Creates a new VistaPrincipal.
      */
