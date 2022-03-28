@@ -1,4 +1,4 @@
-package interfaz;
+ package interfaz;
 
 public class Registrar extends Caracteristicas_comunes_no_registrado {
 //	private TextFiled _contrasenaTF;
@@ -12,5 +12,9 @@ public class Registrar extends Caracteristicas_comunes_no_registrado {
 
 	public void Verificar_clave() {
 		throw new UnsupportedOperationException();
+	}
+	
+	public Registrar() {
+		
 	}
 }
