@@ -6,26 +6,26 @@ import com.vaadin.flow.component.dependency.JsModule;
 import com.vaadin.flow.component.polymertemplate.PolymerTemplate;
 
 /**
- * A Designer generated component for the vista-estadisticas template.
+ * A Designer generated component for the vista-buscar template.
  *
  * Designer will add and remove fields with @Id mappings but
  * does not overwrite or otherwise change this file.
  */
-@Tag("vista-estadisticas")
-@JsModule("./src/vista-estadisticas.js")
-public class VistaEstadisticas extends PolymerTemplate<VistaEstadisticas.VistaEstadisticasModel> {
+@Tag("vista-buscar")
+@JsModule("./vista-buscar.js")
+public class VistaZonaBuscador extends PolymerTemplate<VistaZonaBuscador.VistaBuscarModel> {
 
     /**
-     * Creates a new VistaEstadisticas.
+     * Creates a new VistaBuscar.
      */
-    public VistaEstadisticas() {
+    public VistaZonaBuscador() {
         // You can initialise any data required for the connected UI components here.
     }
 
     /**
-     * This model binds properties between VistaEstadisticas and vista-estadisticas
+     * This model binds properties between VistaBuscar and vista-buscar
      */
-    public interface VistaEstadisticasModel extends TemplateModel {
+    public interface VistaBuscarModel extends TemplateModel {
         // Add setters and getters for template properties here.
     }
 }

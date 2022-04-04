@@ -15,8 +15,8 @@ class VistaPerfilUsuario extends PolymerElement {
 <vaadin-vertical-layout theme="spacing" style="width: 100%; height: 100%;">
  <vaadin-horizontal-layout theme="spacing" style="width: 100%;">
   <vaadin-vertical-layout theme="spacing" style="width: 100%;">
-   <label style="flex-grow: 1; align-self: center; flex-shrink: 0;">Nickname</label>
-   <vaadin-horizontal-layout theme="spacing" style="align-self: center; flex-grow: 1;">
+   <label style="flex-grow: 0; align-self: center; flex-shrink: 0;">Nickname</label>
+   <vaadin-horizontal-layout theme="spacing" style="align-self: center; flex-grow: 0; flex-shrink: 1;">
     <button>Cerrar sesion</button>
     <button>Modificar perfil</button>
    </vaadin-horizontal-layout>

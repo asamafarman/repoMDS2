@@ -1,6 +1,6 @@
 import {html, PolymerElement} from '@polymer/polymer/polymer-element.js';
 import '@vaadin/vaadin-ordered-layout/src/vaadin-vertical-layout.js';
-import '@vaadin/vaadin-ordered-layout/src/vaadin-horizontal-layout.js';
+import '@vaadin/vaadin-button/src/vaadin-button.js';
 
 class VistaCancionesFavoritas extends PolymerElement {
 
@@ -13,8 +13,9 @@ class VistaCancionesFavoritas extends PolymerElement {
                 }
             </style>
 <vaadin-vertical-layout theme="spacing" style="width: 100%; height: 100%;">
- <label>Canciones favoritas</label>
- <vaadin-horizontal-layout theme="spacing"></vaadin-horizontal-layout>
+ <vaadin-button style="width: 100%; height: 100%;">
+   Button 
+ </vaadin-button>
 </vaadin-vertical-layout>
 `;
     }

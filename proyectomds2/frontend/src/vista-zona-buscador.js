@@ -15,9 +15,9 @@ class VistaBuscar extends PolymerElement {
                 }
             </style>
 <vaadin-vertical-layout style="width: 100%; height: 100%;">
- <vaadin-horizontal-layout theme="spacing" style="width: 100%; height: 100%;">
+ <vaadin-horizontal-layout theme="spacing" style="width: 100%;">
   <vaadin-text-field style="width: 100%;"></vaadin-text-field>
-  <vaadin-button style="width: 100%;">
+  <vaadin-button style="width: 10%;">
     Button 
   </vaadin-button>
  </vaadin-horizontal-layout>

@@ -6,26 +6,26 @@ import com.vaadin.flow.component.dependency.JsModule;
 import com.vaadin.flow.component.polymertemplate.PolymerTemplate;
 
 /**
- * A Designer generated component for the vista-recomendaciones-app template.
+ * A Designer generated component for the vista-elemento-cancion template.
  *
  * Designer will add and remove fields with @Id mappings but
  * does not overwrite or otherwise change this file.
  */
-@Tag("vista-recomendaciones-app")
-@JsModule("./vista-recomendaciones-app.js")
-public class VistaRecomendacionesApp extends PolymerTemplate<VistaRecomendacionesApp.VistaRecomendacionesAppModel> {
+@Tag("vista-elemento-cancion")
+@JsModule("./src/vista-elemento-cancion.js")
+public class VistaElementoCancion extends PolymerTemplate<VistaElementoCancion.VistaElementoCancionModel> {
 
     /**
-     * Creates a new VistaRecomendacionesApp.
+     * Creates a new VistaElementoCancion.
      */
-    public VistaRecomendacionesApp() {
+    public VistaElementoCancion() {
         // You can initialise any data required for the connected UI components here.
     }
 
     /**
-     * This model binds properties between VistaRecomendacionesApp and vista-recomendaciones-app
+     * This model binds properties between VistaElementoCancion and vista-elemento-cancion
      */
-    public interface VistaRecomendacionesAppModel extends TemplateModel {
+    public interface VistaElementoCancionModel extends TemplateModel {
         // Add setters and getters for template properties here.
     }
 }

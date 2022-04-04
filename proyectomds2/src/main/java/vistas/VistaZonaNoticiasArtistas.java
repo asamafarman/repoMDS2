@@ -13,12 +13,12 @@ import com.vaadin.flow.component.polymertemplate.PolymerTemplate;
  */
 @Tag("vista-ultimas-noticias-artistas")
 @JsModule("./src/vista-ultimas-noticias-artistas.js")
-public class VistaUltimasNoticiasArtistas extends PolymerTemplate<VistaUltimasNoticiasArtistas.VistaUltimasNoticiasArtistasModel> {
+public class VistaZonaNoticiasArtistas extends PolymerTemplate<VistaZonaNoticiasArtistas.VistaUltimasNoticiasArtistasModel> {
 
     /**
      * Creates a new VistaUltimasNoticiasArtistas.
      */
-    public VistaUltimasNoticiasArtistas() {
+    public VistaZonaNoticiasArtistas() {
         // You can initialise any data required for the connected UI components here.
     }
 
