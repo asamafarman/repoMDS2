@@ -12,14 +12,14 @@ class VistaBuscador extends PolymerElement {
                     height: 100%;
                 }
             </style>
-<vaadin-vertical-layout style="width: 100%; height: 100%;">
- <vaadin-horizontal-layout theme="spacing" style="width: 100%; height: 100%;">
-  <vaadin-vertical-layout theme="spacing" style="width: 100%; height: 100%;"></vaadin-vertical-layout>
-  <vaadin-vertical-layout theme="spacing" style="width: 100%; height: 100%;"></vaadin-vertical-layout>
+<vaadin-vertical-layout style="width: 100%; height: 100%;" id="zona_buscador">
+ <vaadin-horizontal-layout theme="spacing" style="width: 100%; height: 100%;" id="vaadinHorizontalLayout">
+  <vaadin-vertical-layout theme="spacing" style="width: 100%; height: 100%;" id="canciones_buscadas"></vaadin-vertical-layout>
+  <vaadin-vertical-layout theme="spacing" style="width: 100%; height: 100%;" id="album_buscado"></vaadin-vertical-layout>
  </vaadin-horizontal-layout>
- <vaadin-horizontal-layout theme="spacing" style="width: 100%; height: 100%;">
-  <vaadin-vertical-layout theme="spacing" style="width: 100%; height: 100%;"></vaadin-vertical-layout>
-  <vaadin-vertical-layout theme="spacing" style="width: 100%; height: 100%;"></vaadin-vertical-layout>
+ <vaadin-horizontal-layout theme="spacing" style="width: 100%; height: 100%;" id="vaadinHorizontalLayout1">
+  <vaadin-vertical-layout theme="spacing" style="width: 100%; height: 100%;" id="artista_buscado"></vaadin-vertical-layout>
+  <vaadin-vertical-layout theme="spacing" style="width: 100%; height: 100%;" id="lisca_cancion_buscada"></vaadin-vertical-layout>
  </vaadin-horizontal-layout>
 </vaadin-vertical-layout>
 `;

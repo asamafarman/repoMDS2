@@ -12,16 +12,15 @@ class VistaOtroUsuario extends PolymerElement {
                     height: 100%;
                 }
             </style>
-<vaadin-vertical-layout style="width: 100%; height: 100%;">
- <vaadin-horizontal-layout theme="spacing" style="width: 100%;">
-  <label>Usuario</label>
-  <img style="width: 10%;" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png">
-  <button>Seguir</button>
-  <button>Dejar de seguir </button>
+<vaadin-vertical-layout style="width: 100%; height: 100%;" id="vaadinVerticalLayout">
+ <vaadin-horizontal-layout theme="spacing" style="width: 100%;" id="vaadinHorizontalLayout">
+  <label id="nombre_usuario">Usuario</label>
+  <img style="width: 10%;" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" id="imagne_usuario">
+  <button id="boton_seguir">Seguir</button>
+  <button id="boton_dejar_seguir">Dejar de seguir </button>
  </vaadin-horizontal-layout>
- <vaadin-vertical-layout theme="spacing" style="width: 100%; height: 100%;">
-  <label style="width: 100%;">Lista reproduccion</label>
- </vaadin-vertical-layout>
+ <label style="width: 100%;" id="label">Lista reproduccion</label>
+ <vaadin-vertical-layout theme="spacing" style="width: 100%; height: 100%;" id="lista_reproduccion"></vaadin-vertical-layout>
 </vaadin-vertical-layout>
 `;
     }

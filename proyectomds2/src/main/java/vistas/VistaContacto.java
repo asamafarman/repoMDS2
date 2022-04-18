@@ -28,7 +28,6 @@ public class VistaContacto extends PolymerTemplate<VistaContacto.VistaContactoMo
 	private Label label_contactar;
 	@Id("button_correoElectronico")
 	private Button button_correoElectronico;
-
 	/**
      * Creates a new VistaContacto.
      */

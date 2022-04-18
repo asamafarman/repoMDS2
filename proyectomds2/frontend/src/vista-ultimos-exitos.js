@@ -13,8 +13,8 @@ class VistaUltimosExitos extends PolymerElement {
             </style>
 <vaadin-vertical-layout style="width: 100%;" id="Vertical_ultimosExitos">
  <label id="label_ultimosExitos" style="width: 100%; height: 100%;">Últimos éxitos</label>
+ <vaadin-vertical-layout theme="spacing" id="lista_ultimos_exitos" style="width: 100%; height: 100%;"></vaadin-vertical-layout>
 </vaadin-vertical-layout>
-<img id="img_album" style="width: 100%; height: 50%;">
 `;
     }
 

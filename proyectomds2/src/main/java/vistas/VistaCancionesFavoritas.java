@@ -4,6 +4,9 @@ import com.vaadin.flow.templatemodel.TemplateModel;
 import com.vaadin.flow.component.Tag;
 import com.vaadin.flow.component.dependency.JsModule;
 import com.vaadin.flow.component.polymertemplate.PolymerTemplate;
+import com.vaadin.flow.component.button.Button;
+import com.vaadin.flow.component.template.Id;
+import com.vaadin.flow.dom.Element;
 
 /**
  * A Designer generated component for the vista-canciones-favoritas template.
@@ -15,7 +18,12 @@ import com.vaadin.flow.component.polymertemplate.PolymerTemplate;
 @JsModule("./src/vista-canciones-favoritas.js")
 public class VistaCancionesFavoritas extends PolymerTemplate<VistaCancionesFavoritas.VistaCancionesFavoritasModel> {
 
-    /**
+    @Id("botton_cancion_favorita")
+	private Button botton_cancion_favorita;
+	@Id("vaadinVerticalLayout")
+	private Element vaadinVerticalLayout;
+
+	/**
      * Creates a new VistaCancionesFavoritas.
      */
     public VistaCancionesFavoritas() {

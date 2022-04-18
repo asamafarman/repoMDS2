@@ -14,23 +14,23 @@ class VistaContactar extends PolymerElement {
                     height: 100%;
                 }
             </style>
-<vaadin-vertical-layout theme="spacing" style="width: 100%; height: 100%;">
- <label id="l">Contacto correo electrónico</label>
- <vaadin-horizontal-layout theme="spacing" style="width: 100%; height: 100%;">
-  <label>Correo electrónico </label>
-  <vaadin-text-field style="width: 100%; height: 100%;"></vaadin-text-field>
+<vaadin-vertical-layout theme="spacing" style="width: 100%; height: 100%;" id="vaadinVerticalLayout">
+ <label id="label_contactar">Contacto correo electrónico</label>
+ <vaadin-horizontal-layout theme="spacing" style="width: 100%; height: 100%;" id="vaadinHorizontalLayout">
+  <label id="Label_correo">Correo electrónico </label>
+  <vaadin-text-field style="width: 100%; height: 100%;" id="text_field_correo"></vaadin-text-field>
  </vaadin-horizontal-layout>
- <vaadin-horizontal-layout theme="spacing" style="width: 100%; height: 100%;">
-  <label>Asunto </label>
-  <vaadin-text-field style="width: 100%; height: 100%;"></vaadin-text-field>
+ <vaadin-horizontal-layout theme="spacing" style="width: 100%; height: 100%;" id="vaadinHorizontalLayout1">
+  <label id="label_asunto">Asunto </label>
+  <vaadin-text-field style="width: 100%; height: 100%;" id="text_field_asunto"></vaadin-text-field>
  </vaadin-horizontal-layout>
- <vaadin-horizontal-layout theme="spacing" style="width: 100%; height: 100%;">
-  <label>Mensaje </label>
-  <vaadin-text-area style="width: 100%; height: 100%;"></vaadin-text-area>
+ <vaadin-horizontal-layout theme="spacing" style="width: 100%; height: 100%;" id="vaadinHorizontalLayout2">
+  <label id="label_mensaje">Mensaje </label>
+  <vaadin-text-area style="width: 100%; height: 100%;" id="text_field_mensaje"></vaadin-text-area>
  </vaadin-horizontal-layout>
- <vaadin-horizontal-layout theme="spacing" style="align-self: flex-end;">
-  <button>Enviar</button>
-  <button>Cancelar</button>
+ <vaadin-horizontal-layout theme="spacing" style="align-self: flex-end;" id="vaadinHorizontalLayout3">
+  <button id="boton_enviar">Enviar</button>
+  <button id="boton_cancelar">Cancelar</button>
  </vaadin-horizontal-layout>
 </vaadin-vertical-layout>
 `;

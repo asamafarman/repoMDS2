@@ -14,15 +14,15 @@ class VistaModificarListaReproduccion extends PolymerElement {
                     height: 100%;
                 }
             </style>
-<vaadin-vertical-layout style="width: 100%; height: 100%;">
- <label>Modificar lista reproduccion</label>
- <label>Label</label>
- <label>Canciones</label>
- <vaadin-vertical-layout style="width: 100%; height: 100%;"></vaadin-vertical-layout>
- <vaadin-horizontal-layout theme="spacing">
-  <vaadin-text-field label="Buscar cancion" placeholder="Placeholder"></vaadin-text-field>
-  <vaadin-button style="align-self: flex-end;">
-   Buscar
+<vaadin-vertical-layout style="width: 100%; height: 100%;" id="vaadinVerticalLayout">
+ <label id="label">Modificar lista reproduccion</label>
+ <label id="titulo_lista">titulo </label>
+ <label id="label1">Canciones</label>
+ <vaadin-vertical-layout style="width: 100%; height: 100%;" id="lista_reproducion"></vaadin-vertical-layout>
+ <vaadin-horizontal-layout theme="spacing" id="vaadinHorizontalLayout">
+  <vaadin-text-field label="Buscar cancion" placeholder="Placeholder" id="buscarCancion"></vaadin-text-field>
+  <vaadin-button style="align-self: flex-end;" id="boton_buscar">
+    Buscar 
   </vaadin-button>
  </vaadin-horizontal-layout>
 </vaadin-vertical-layout>

@@ -4,6 +4,9 @@ import com.vaadin.flow.templatemodel.TemplateModel;
 import com.vaadin.flow.component.Tag;
 import com.vaadin.flow.component.dependency.JsModule;
 import com.vaadin.flow.component.polymertemplate.PolymerTemplate;
+import com.vaadin.flow.dom.Element;
+import com.vaadin.flow.component.template.Id;
+import com.vaadin.flow.component.html.Label;
 
 /**
  * A Designer generated component for the vista-buscador-cancion template.
@@ -15,7 +18,14 @@ import com.vaadin.flow.component.polymertemplate.PolymerTemplate;
 @JsModule("./vista-buscador-cancion.js")
 public class VistaBuscadorCancion extends PolymerTemplate<VistaBuscadorCancion.VistaBuscadorCancionModel> {
 
-    /**
+    @Id("vaadinVerticalLayout")
+	private Element vaadinVerticalLayout;
+	@Id("titulo_cancion")
+	private Label titulo_cancion;
+	@Id("lista_canciones")
+	private Element lista_canciones;
+
+	/**
      * Creates a new VistaBuscadorCancion.
      */
     public VistaBuscadorCancion() {

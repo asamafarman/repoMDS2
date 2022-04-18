@@ -11,9 +11,9 @@ class VistaAlbumArtista extends PolymerElement {
                     height: 100%;
                 }
             </style>
-<vaadin-vertical-layout style="width: 100%; height: 100%;">
- <label style="width: 100%;">Album </label>
- <vaadin-vertical-layout theme="spacing" style="width: 100%; height: 100%;"></vaadin-vertical-layout>
+<vaadin-vertical-layout style="width: 100%; height: 100%;" id="vaadinVerticalLayout">
+ <label style="width: 100%;" id="nombre_album">Album </label>
+ <vaadin-vertical-layout theme="spacing" style="width: 100%; height: 100%;" id="albums_artista"></vaadin-vertical-layout>
 </vaadin-vertical-layout>
 `;
     }

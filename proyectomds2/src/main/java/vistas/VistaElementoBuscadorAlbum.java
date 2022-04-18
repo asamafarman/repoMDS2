@@ -4,6 +4,11 @@ import com.vaadin.flow.templatemodel.TemplateModel;
 import com.vaadin.flow.component.Tag;
 import com.vaadin.flow.component.dependency.JsModule;
 import com.vaadin.flow.component.polymertemplate.PolymerTemplate;
+import com.vaadin.flow.component.button.Button;
+import com.vaadin.flow.component.template.Id;
+import com.vaadin.flow.component.html.Label;
+import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
+import com.vaadin.flow.dom.Element;
 
 /**
  * A Designer generated component for the vista-elemento-buscador-album template.
@@ -15,7 +20,16 @@ import com.vaadin.flow.component.polymertemplate.PolymerTemplate;
 @JsModule("./src/vista-elemento-buscador-album.js")
 public class VistaElementoBuscadorAlbum extends PolymerTemplate<VistaElementoBuscadorAlbum.VistaElementoBuscadorAlbumModel> {
 
-    /**
+    @Id("vaadinButton")
+	private Button vaadinButton;
+	@Id("autor_album")
+	private Label autor_album;
+	@Id("vaadinHorizontalLayout")
+	private HorizontalLayout vaadinHorizontalLayout;
+	@Id("vaadinVerticalLayout")
+	private Element vaadinVerticalLayout;
+
+	/**
      * Creates a new VistaElementoBuscadorAlbum.
      */
     public VistaElementoBuscadorAlbum() {

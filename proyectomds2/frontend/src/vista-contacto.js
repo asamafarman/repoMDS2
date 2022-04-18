@@ -16,8 +16,8 @@ class VistaContacto extends PolymerElement {
 <vaadin-vertical-layout style="width: 100%; height: 100%; padding: var(--lumo-space-l);" id="vertical_contacto">
  <vaadin-horizontal-layout id="horizontal_contactar" style="width: 100%; height: 100%; flex-direction: column; align-items: center; justify-content: center;">
   <label id="label_contactar" style="width: 10%;">Contactar:</label>
-  <vaadin-button id="button_correoElectronico" style="width: 50%; height: 10%;">
-   Correo electrónico
+  <vaadin-button id="button_correoElectronico" style="width: 50%; height: 10%;" dir="boton_contactar_correo">
+    Correo electrónico 
   </vaadin-button>
  </vaadin-horizontal-layout>
 </vaadin-vertical-layout>

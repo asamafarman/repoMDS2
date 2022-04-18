@@ -11,9 +11,9 @@ class VistaBuscadorAutor extends PolymerElement {
                     height: 100%;
                 }
             </style>
-<vaadin-vertical-layout style="width: 100%; height: 100%;">
- <label style="width: 100%;">Lista autor </label>
- <vaadin-vertical-layout theme="spacing" style="width: 100%; height: 100%;"></vaadin-vertical-layout>
+<vaadin-vertical-layout style="width: 100%; height: 100%;" id="vaadinVerticalLayout">
+ <label style="width: 100%;" id="titulo_autor">Lista autor </label>
+ <vaadin-vertical-layout theme="spacing" style="width: 100%; height: 100%;" id="lista_autores"></vaadin-vertical-layout>
 </vaadin-vertical-layout>
 `;
     }

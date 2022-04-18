@@ -25,7 +25,8 @@ public class VistaUltimosExitos extends PolymerTemplate<VistaUltimosExitos.Vista
 	private Label label_ultimosExitos;
 	@Id("img_album")
 	private Image img_album;
-
+	@Id("lista_ultimos_exitos")
+	private Element lista_ultimos_exitos;
 	/**
      * Creates a new VistaUltimosExitos.
      */

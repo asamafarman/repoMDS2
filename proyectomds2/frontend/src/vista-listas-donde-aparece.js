@@ -1,7 +1,7 @@
 import {html, PolymerElement} from '@polymer/polymer/polymer-element.js';
 import '@vaadin/vaadin-ordered-layout/src/vaadin-vertical-layout.js';
 
-class VistaBuscadorCancion extends PolymerElement {
+class VistaListasDondeAparece extends PolymerElement {
 
     static get template() {
         return html`
@@ -12,14 +12,14 @@ class VistaBuscadorCancion extends PolymerElement {
                 }
             </style>
 <vaadin-vertical-layout style="width: 100%; height: 100%;" id="vaadinVerticalLayout">
- <label style="width: 100%;" id="titulo_cancion">Canciones con el titulo </label>
- <vaadin-vertical-layout theme="spacing" style="width: 100%; height: 100%;" id="lista_canciones"></vaadin-vertical-layout>
+ <label id="lablel_lista_donde_aparece">Lista de reproducción donde aparece alguna canción</label>
+ <vaadin-vertical-layout theme="spacing" style="width: 100%; height: 100%;" id="listas_donde_aparece"></vaadin-vertical-layout>
 </vaadin-vertical-layout>
 `;
     }
 
     static get is() {
-        return 'vista-buscador-cancion';
+        return 'vista-listas-donde-aparece';
     }
 
     static get properties() {
@@ -29,4 +29,4 @@ class VistaBuscadorCancion extends PolymerElement {
     }
 }
 
-customElements.define(VistaBuscadorCancion.is, VistaBuscadorCancion);
+customElements.define(VistaListasDondeAparece.is, VistaListasDondeAparece);

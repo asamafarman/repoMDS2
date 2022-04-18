@@ -13,14 +13,14 @@ class VistaListasCanciones extends PolymerElement {
                     height: 100%;
                 }
             </style>
-<vaadin-vertical-layout theme="spacing" style="width: 100%; height: 100%;">
- <vaadin-horizontal-layout theme="spacing">
-  <label>Listas de reproducción </label>
-  <vaadin-button>
-   +
+<vaadin-vertical-layout theme="spacing" style="width: 100%; height: 100%;" id="vaadinVerticalLayout">
+ <vaadin-horizontal-layout theme="spacing" id="vaadinHorizontalLayout">
+  <label id="label_lista">Listas de reproducción </label>
+  <vaadin-button id="boton_crear">
+    + 
   </vaadin-button>
  </vaadin-horizontal-layout>
- <vaadin-vertical-layout theme="spacing" style="width: 100%; height: 100%;"></vaadin-vertical-layout>
+ <vaadin-vertical-layout theme="spacing" style="width: 100%; height: 100%;" id="lista_reproduccion"></vaadin-vertical-layout>
 </vaadin-vertical-layout>
 `;
     }

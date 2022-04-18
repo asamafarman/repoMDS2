@@ -14,12 +14,12 @@ class VistaElementoBuscadorCancion extends PolymerElement {
                 }
             </style>
 <vaadin-vertical-layout style="width: 100%; height: 100%;">
- <vaadin-button style="width: 100%;">
+ <vaadin-button style="width: 100%;" dir="cancion">
    Button 
  </vaadin-button>
  <vaadin-horizontal-layout theme="spacing" style="width: 100%;">
-  <label style="width: 100%; height: 100%;">Label</label>
-  <label style="width: 100%; height: 100%;">Label</label>
+  <label style="width: 100%; height: 100%;" id="autor_cancion">autor</label>
+  <label style="width: 100%; height: 100%;" id="duracion">duracion </label>
  </vaadin-horizontal-layout>
 </vaadin-vertical-layout>
 `;

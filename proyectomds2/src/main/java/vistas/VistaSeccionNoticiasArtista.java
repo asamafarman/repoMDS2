@@ -4,6 +4,8 @@ import com.vaadin.flow.templatemodel.TemplateModel;
 import com.vaadin.flow.component.Tag;
 import com.vaadin.flow.component.dependency.JsModule;
 import com.vaadin.flow.component.polymertemplate.PolymerTemplate;
+import com.vaadin.flow.dom.Element;
+import com.vaadin.flow.component.template.Id;
 
 /**
  * A Designer generated component for the vista-seccion-noticias-artista template.
@@ -15,7 +17,10 @@ import com.vaadin.flow.component.polymertemplate.PolymerTemplate;
 @JsModule("./src/vista-seccion-noticias-artista.js")
 public class VistaSeccionNoticiasArtista extends PolymerTemplate<VistaSeccionNoticiasArtista.VistaSeccionNoticiasArtistaModel> {
 
-    /**
+    @Id("noticias_artista")
+	private Element noticias_artista;
+
+	/**
      * Creates a new VistaSeccionNoticiasArtista.
      */
     public VistaSeccionNoticiasArtista() {

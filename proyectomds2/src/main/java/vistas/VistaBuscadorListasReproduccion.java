@@ -4,6 +4,9 @@ import com.vaadin.flow.templatemodel.TemplateModel;
 import com.vaadin.flow.component.Tag;
 import com.vaadin.flow.component.dependency.JsModule;
 import com.vaadin.flow.component.polymertemplate.PolymerTemplate;
+import com.vaadin.flow.dom.Element;
+import com.vaadin.flow.component.template.Id;
+import com.vaadin.flow.component.html.Label;
 
 /**
  * A Designer generated component for the vista-buscador-listas-reproduccion template.
@@ -15,7 +18,14 @@ import com.vaadin.flow.component.polymertemplate.PolymerTemplate;
 @JsModule("./src/vista-buscador-listas-reproduccion.js")
 public class VistaBuscadorListasReproduccion extends PolymerTemplate<VistaBuscadorListasReproduccion.VistaBuscadorListasReproduccionModel> {
 
-    /**
+    @Id("vaadinVerticalLayout")
+	private Element vaadinVerticalLayout;
+	@Id("titulo_listas_reproduccion")
+	private Label titulo_listas_reproduccion;
+	@Id("lista_reproduccion_buscada")
+	private Element lista_reproduccion_buscada;
+
+	/**
      * Creates a new VistaBuscadorListasReproduccion.
      */
     public VistaBuscadorListasReproduccion() {

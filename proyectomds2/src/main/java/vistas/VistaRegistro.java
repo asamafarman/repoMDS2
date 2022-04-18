@@ -10,6 +10,8 @@ import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.textfield.TextField;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.html.Label;
+import com.vaadin.flow.component.html.Image;
+import com.vaadin.flow.component.upload.Upload;
 
 /**
  * A Designer generated component for the vista-registro template.
@@ -43,6 +45,48 @@ public class VistaRegistro extends PolymerTemplate<VistaRegistro.VistaRegistroMo
 	private Label label_yaTienesCuenta1;
 	@Id("button_iniciarSesion")
 	private Button button_iniciarSesion;
+	@Id("vaadinVerticalLayout1")
+	private Element vaadinVerticalLayout1;
+	@Id("label")
+	private Label label;
+	@Id("zona_terceros")
+	private HorizontalLayout zona_terceros;
+	@Id("boton_google")
+	private Button boton_google;
+	@Id("boton_facebook")
+	private Button boton_facebook;
+	@Id("boton_apple")
+	private Button boton_apple;
+	@Id("label1")
+	private Label label1;
+	@Id("label2")
+	private Label label2;
+	@Id("text_field_correo")
+	private TextField text_field_correo;
+	@Id("text_field_confirmar_correo1")
+	private TextField text_field_confirmar_correo1;
+	@Id("text_field_contraseña")
+	private TextField text_field_contraseña;
+	@Id("text_field_confirmar_contraseña")
+	private TextField text_field_confirmar_contraseña;
+	@Id("text_field_usuario")
+	private TextField text_field_usuario;
+	@Id("boton_registrarse")
+	private Button boton_registrarse;
+	@Id("vaadinHorizontalLayout")
+	private HorizontalLayout vaadinHorizontalLayout;
+	@Id("label3")
+	private Label label3;
+	@Id("boton_iniciar_sesion")
+	private Button boton_iniciar_sesion;
+	@Id("vaadinVerticalLayout2")
+	private Element vaadinVerticalLayout2;
+	@Id("label4")
+	private Label label4;
+	@Id("imagen")
+	private Image imagen;
+	@Id("cargar_imagen")
+	private Upload cargar_imagen;
 
 	/**
      * Creates a new VistaRegistro.
